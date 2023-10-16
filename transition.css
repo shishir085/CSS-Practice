@@ -1,0 +1,28 @@
+div {
+    border: 2px solid black;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    transition: all 2s ease-in;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+
+}
+
+div:hover {
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    transform: rotate(90deg);
+    transform: scaleX(2);
+    /* transform: scaleY(2); */
+
+}
+
+div:active {
+    background-color: blue;
+    rotate: 90deg;
+
+}
