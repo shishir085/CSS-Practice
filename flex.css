@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+.container{
+    
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+div{
+    height: 100px;
+   
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+ 
+
+   }
+
+
+.box1{
+  
+    background-color: aqua;
+   
+   
+}
+.box2{
+   
+    background-color: pink;
+}
+.box3{
+  
+    background-color: rgb(201, 137, 0);
+}
+.box4{
+   
+    background-color: red;
+}
+.box5{
+  
+    background-color: blue;
+}

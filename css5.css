@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 25px;
+    padding: 25px;
+    
+}
+
+.apple{
+    background-color: red;
+}
+.ball{
+    background-color: green;
+
+    display: none;
+}
+.cat{
+ 
+    background-color: yellow;
+}

@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+
+    background-color: #0f1111;
+    height: 60px;
+    
+}
+a{
+    margin-right: 200px;
+}
+
+.amazon {
+    margin-left: 2px;
+    font-size: 25px;
+    color: orangered;
+
+}
+
+.account {
+    color: white;
+   
+}
+
+.cart {
+    color: white;
+
+}
+
+.contact {
+    color: white;
+   
+}
+
+
+.click {
+    color: white;
+    background-color: #f08804;
+}
+
+
+
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+text-align: center;
+
+
+}
+
+#content{
+    margin-bottom: 450px;
+}

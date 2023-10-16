@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+margin: 0px;
+}
+
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+}

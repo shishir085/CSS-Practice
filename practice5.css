@@ -1,0 +1,10 @@
+div{
+height: 250px;
+width: 400px;
+background-image: url(https://images.pexels.com/photos/5185446/pexels-photo-5185446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-size: cover;
+position: fixed;
+bottom: 0px;
+right: 0px;
+
+}

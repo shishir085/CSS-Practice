@@ -1,0 +1,22 @@
+#box {
+    background-color: blue;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.heading {
+    color: red;
+}
+
+.me {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 21px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00acee;
+}
+.me:hover{
+    background-color: #0084b4; 
+}
