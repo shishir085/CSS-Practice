@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+box-sizing: border-box;}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#main {
+
+    background-color: rgb(248, 237, 237);
+
+    height: 490px;
+    width: 320px;
+
+    border: 0.5px solid black;
+    border-radius: 10px;
+
+
+
+}
+
+.image {
+    height: 220px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 3%;
+    position: relative;
+    top: 9px;
+    left: 9px;
+margin-bottom: 15px;
+   
+
+}
+
+
+
+span{
+   padding-left: 25px;
+    color: rgb(107, 103, 103);
+   margin-bottom: 25px;
+}
+.text1{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+    
+
+}
+.text{
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(107, 103, 103)
+}
+
+.click
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+button{
+    height: 35px;
+    margin-top: 20px;
+    text-align: center;
+    width: 110px;
+   font-weight: bold;
+
+border-top-left-radius: 23px;
+border-top-right-radius: 23px;
+border-bottom-left-radius: 23px;
+border-bottom-right-radius: 23px;
+
+    color: rgb(79, 79, 224);
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(203, 214, 214);
+    outline: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    border: 1px solid #ddd;
+    
+    
+
+}
+
