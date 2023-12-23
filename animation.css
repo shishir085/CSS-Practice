@@ -1,25 +1,54 @@
-div {
-    height: 100px;
-    width: 100px;
-    background-color: aquamarine;
-    border: 2px solid black;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    animation: animate 2s ease-in  2 alternate ;
+.container {
+    background-color: #000000;
+    height: 400px;
+    width: 450px;
 
 }
 
-@keyframes animate {
-    from {
-        left:0px ;
-    }
-
-    to {
-    left: 200px;
-    }
-}
-
-div:hover {
+.box {
+    width: 34px;
+    height: 45px;
    
+
+    animation: shishir 1s infinite ease-in-out alternate-reverse;
+
+
+
+}
+
+@keyframes shishir {
+    0% {
+        background-color: coral;
+        transform: translate(0px, 0px);
+     
+    }
+
+    20% {
+        background-color: #ffd900;
+        
+
+    }
+
+    40% {
+        background-color: #00f8e3;
+
+    }
+
+    60% {
+        background-color: #ff0000;
+
+    }
+
+    80% {
+
+        background-color: #fd00d3;
+
+    }
+
+    100% {
+        transform: translate(207px, 160px);
+        background-color: rgb(47, 0, 255);
+
+    }
+
 }

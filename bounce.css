@@ -1,0 +1,55 @@
+.container {
+    height: 450px;
+    width: 800px;
+    background-color: black;
+    position: relative;
+
+}
+
+.ball {
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: bounce 4s infinite linear;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translate(0px,0px);
+    }
+    20% {
+        left: 100px ;
+        bottom:160px ;
+    }
+    40% {
+        left: 200px;
+        bottom:0px ;
+
+    }
+    60% {
+        left:300px ;
+        bottom:160px;
+
+    }
+    80% {
+        left:400px ;
+        bottom: 0px;
+
+    }
+    90% {
+        left:500px ;
+        bottom: 160px;
+
+    }
+    100% {
+        left:600px ;
+        bottom: 0px;
+
+    }
+
+}

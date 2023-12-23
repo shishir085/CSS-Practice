@@ -1,28 +1,21 @@
-div {
-    border: 2px solid black;
-    background-color: aqua;
-    height: 100px;
-    width: 100px;
-    transition: all 2s ease-in;
-    position: absolute;
-    top: 100px;
-    left: 100px;
+.container {
+    background-color: rgb(185, 0, 0);
+    height: 62vh;
+    width: 49vw;
+
+}
+
+.box {
+    background-color: aquamarine;
+    height: 6vh;
+    width: 5vw;
+   transition: all 3s ease-in-out 1ms;
 
 
 }
 
-div:hover {
-    background-color: red;
-    color: white;
-    font-size: 17px;
-    transform: rotate(90deg);
-    transform: scaleX(2);
-    /* transform: scaleY(2); */
+.translate {
+    transform: translate(200px, 100px);
 
-}
-
-div:active {
-    background-color: blue;
-    rotate: 90deg;
-
+    background-color: rgb(46, 0, 253);
 }
